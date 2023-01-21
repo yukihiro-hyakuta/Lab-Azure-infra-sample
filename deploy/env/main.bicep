@@ -1,3 +1,5 @@
+// https://github.com/thara0402/dapr-frontend/blob/main/deploy/env/environment.bicep
+
 param environmentName string
 param logAnalyticsWorkspaceName string = 'logs-${environmentName}'
 param appInsightsName string = 'appins-${environmentName}'
