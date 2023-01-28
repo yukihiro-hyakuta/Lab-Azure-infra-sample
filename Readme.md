@@ -33,3 +33,7 @@ https://github.com/thara0402/dapr-frontend
 https://itc-engineering-blog.netlify.app/blogs/dapr-local-dev  
 https://itc-engineering-blog.netlify.app/blogs/azure-aca-dapr-bicep  
 daprを詳しく。サンプルもあり。bicepも参考になる。  
+  
+https://zenn.dev/okazuki/articles/azure-container-app-lab
+リリース前の記事。bicepも載っている。  
+シンプルで参考にしやすい。  
