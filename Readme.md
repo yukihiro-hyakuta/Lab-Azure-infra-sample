@@ -20,12 +20,16 @@ https://github.com/apc-kamezaki/dapr-sample/tree/main/settings/aca
 ファイルが散らばっているが設定ファイルが良い感じ。  
 フロントやコンポーネントももじっくり見る必要あり。レベル高い  
 
-https://techblog.ap-com.co.jp/entry/2022/09/01/120000
+https://techblog.ap-com.co.jp/entry/2022/09/01/120000  
 GitHubActionsでデプロイしている。bicepはないかも。動きを知るには良い。  
-
+  
 https://gooner.hateblo.jp/entry/2022/05/27/092220
 bicepわかりやすい。ブルーグリーンデプロイでトラフィック制御を取りあげている。  
 ただし、DockerHubにあげている。
-https://github.com/thara0402/dapr-frontend
-上記のコード。こちらを参考に第一弾を構築。
-
+  
+https://github.com/thara0402/dapr-frontend  
+上記のコード。こちらを参考に第一弾を構築。  
+  
+https://itc-engineering-blog.netlify.app/blogs/dapr-local-dev  
+https://itc-engineering-blog.netlify.app/blogs/azure-aca-dapr-bicep  
+daprを詳しく。サンプルもあり。bicepも参考になる。  
