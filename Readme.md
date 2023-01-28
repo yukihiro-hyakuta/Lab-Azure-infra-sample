@@ -2,9 +2,17 @@
   
 Dapr + Bicep + Azure Container Apps + nginx simplefy  
   
+deployディレクトリにAzureインストール用のbicepファイルを置く。
+  
 まずは  
 curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash 
 でAzureCLIをインストール  
+  
+使用方法  
+az login
+az create 
+
+  
 
 以下参考文献アドレス  
   
