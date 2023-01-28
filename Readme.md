@@ -27,6 +27,9 @@ https://gooner.hateblo.jp/entry/2022/05/27/092220
 bicepわかりやすい。ブルーグリーンデプロイでトラフィック制御を取りあげている。  
 ただし、DockerHubにあげている。
   
+https://gooner.hateblo.jp/entry/2022/06/15/101209  
+dapr sidecarでバックエンドを呼び出している。  
+  
 https://github.com/thara0402/dapr-frontend  
 上記のコード。こちらを参考に第一弾を構築。  
   
@@ -37,3 +40,8 @@ daprを詳しく。サンプルもあり。bicepも参考になる。
 https://zenn.dev/okazuki/articles/azure-container-app-lab
 リリース前の記事。bicepも載っている。  
 シンプルで参考にしやすい。  
+
+https://dev.to/willvelida/creating-and-provisioning-azure-container-apps-with-bicep-4gfb  
+コンテナレジストリはこちらから  
+  
+  

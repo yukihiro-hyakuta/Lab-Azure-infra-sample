@@ -4,6 +4,7 @@ param environmentName string
 param logAnalyticsWorkspaceName string = 'logs-${environmentName}'
 param appInsightsName string = 'appins-${environmentName}'
 param location string = resourceGroup().location
+param containerRegistryName string = 'container-registry-${environmentName}'
 
 resource logAnalyticsWorkspace 'Microsoft.OperationalInsights/workspaces@2022-10-01' = {
   name: logAnalyticsWorkspaceName
@@ -28,6 +29,17 @@ resource appInsights 'Microsoft.Insights/components@2020-02-02' = {
   properties: { 
     Application_Type: 'web'
     WorkspaceResourceId:logAnalyticsWorkspace.id
+  }
+}
+
+resource containerRegistry 'Microsoft.ContainerRegistry/registries@2022-02-01-preview' = {
+  name: containerRegistryName
+  location: location
+  sku: {
+    name: 'Basic'
+  }
+  properties: {
+    adminUserEnabled: true
   }
 }
 
