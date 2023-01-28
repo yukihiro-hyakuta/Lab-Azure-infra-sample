@@ -9,9 +9,12 @@ curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 でAzureCLIをインストール  
   
 使用方法  
-az login
-az create 
-
+az login  
+az deployment sub create --Location 'japaneast' --template-file './deploy/main.bicep'  
+  
+削除方法  
+az group delete --name 'test-bicep-rg'  
+  
   
 
 以下参考文献アドレス  

@@ -1,10 +1,10 @@
 // https://github.com/thara0402/dapr-frontend/blob/main/deploy/env/environment.bicep
 
 param environmentName string
-param logAnalyticsWorkspaceName string = 'logs-${environmentName}'
-param appInsightsName string = 'appins-${environmentName}'
+param logAnalyticsWorkspaceName string = 'logs${environmentName}'
+param appInsightsName string = 'appIns${environmentName}'
 param location string = resourceGroup().location
-param containerRegistryName string = 'container-registry-${environmentName}'
+param containerRegistryName string = 'containerRegistry${environmentName}'
 
 resource logAnalyticsWorkspace 'Microsoft.OperationalInsights/workspaces@2022-10-01' = {
   name: logAnalyticsWorkspaceName
