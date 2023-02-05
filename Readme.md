@@ -10,7 +10,7 @@ curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
   
 使用方法  
 az login  
-az deployment sub create --Location 'japaneast' --template-file './deploy/main.bicep'  
+az deployment sub create --location 'japaneast' --template-file './deploy/main.bicep'  
   
 削除方法  
 az group delete --name 'test-bicep-rg'  
