@@ -16,7 +16,7 @@ resource resourceGroup 'Microsoft.Resources/resourceGroups@2022-09-01' = {
   location: Location
 }
 
-param environmentName string = 'env-${resourceGroupName}'
+param environmentName string = 'env${resourceGroupName}'
 
 module environment './env/environment.bicep' = {
   name: 'container-app-environment'
